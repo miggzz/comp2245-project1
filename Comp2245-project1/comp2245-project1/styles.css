@@ -1,0 +1,111 @@
+/* Colours and Fonts */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  background-color: #5A67D8; /* Blue background */
+  font-size: 18px;
+}
+
+header a {
+  color: #FF6B6B; /* Pink links */
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #FF2F2F; /* Darker pink links on hover */
+}
+
+/* Landing Page Layout */
+/* Add CSS rules for layout, such as Flexbox, Grid, and positioning for each section. */
+
+/* Hero Overview section */
+#hero-overview {
+  background-color: #5A67D8; /* Blue background */
+  padding: 20px;
+}
+
+/* Learn About section */
+#learn-about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Add some spacing between cards */
+}
+
+.learn-card {
+  border: 1px solid #FF6B6B; /* Pink border */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+  padding: 20px;
+  background-color: #FFC0CB; /* Light pink background */
+}
+
+#learn-about h2 {
+  font-size: 28px; /* Larger heading size */
+  color: #5A67D8; /* Blue heading color */
+}
+
+.learn-card h3 {
+  font-size: 24px; /* Larger heading size */
+  color: #5A67D8; /* Blue heading color */
+}
+
+/* COVID-19 Testing section */
+#covid-19-testing {
+  background-color: #5A67D8; /* Blue background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#covid-19-testing a {
+  background-color: #FF6B6B; /* Pink button background */
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Recent Stories section */
+#recent-stories {
+  color: #5A67D8; /* Blue heading color */
+  padding: 20px;
+}
+
+.recent-story-title {
+  font-size: 20px; /* Slightly larger title */
+}
+
+.recent-story-image {
+  border-radius: 50%; /* Circular images */
+  border: 3px solid #FF6B6B; /* Pink border */
+}
+
+/* Newsletter section */
+#newsletter {
+  background-color: #FFC0CB; /* Light pink background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#subscribe-button {
+  background-color: #5A67D8; /* Blue button background */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #5A67D8; /* Blue background */
+  color: #FFC0CB; /* Light pink text */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
